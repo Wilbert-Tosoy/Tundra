@@ -40,6 +40,26 @@
     color: white;
 }
 
+.bg-secondary,
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.bg-dark,
+.btn-dark {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.bg-light,
+.btn-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+
+/**/
+
 .text-center {
     text-align: center;
 }
