@@ -5,6 +5,9 @@
     --secondary-color: #1c3fa8;
     --dark-color: #002240;
     --light-color: #f4f4f4;
+    --success-color: #5cb85c;
+    --error-color: #d9534f;
+
 }
 
 * {
@@ -188,7 +191,8 @@ img {
 }
 
 /* Features */
-.features-head img {
+.features-head,
+.docs-head img {
     width: 200px;
     justify-self: flex-end;
 }
@@ -212,6 +216,27 @@ img {
 
 .features-main .card>i {
     margin-right: 20px;
+}
+
+/* Docs */
+.docs-main h3 {
+    margin: 20px 0;
+}
+
+.docs-main .grid {
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+}
+
+.docs-main nav li {
+    font-size: 17px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.docs-main a:hover {
+    font-weight: bold;
 }
 
 /* Footer */
